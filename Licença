@@ -1,0 +1,19 @@
+
+### 4. Adicione Scripts SQL
+
+Agora, com o repositório criado e a estrutura organizada, você pode começar a adicionar arquivos SQL em suas respectivas pastas. Cada arquivo `.sql` deve conter um exemplo ou conjunto de exercícios, de acordo com a complexidade.
+
+### 5. Realize o Upload para o GitHub
+
+1. No seu repositório no GitHub, clique em **Add file** > **Upload files**.
+2. Arraste e solte seus arquivos ou selecione-os manualmente.
+3. Insira uma mensagem de commit explicativa, como **"Adiciona exemplos de criação de tabelas"**.
+4. Clique em **Commit changes** para salvar as alterações no repositório.
+
+### 6. Mantendo e Atualizando o Repositório
+
+Sempre que adicionar novos exemplos ou exercícios, faça um commit explicando a mudança. Isso ajuda a manter o histórico do repositório organizado e facilita para quem acessar seu conteúdo no futuro.
+
+--- 
+
+Agora você terá um repositório sobre SQL no GitHub, organizado para facilitar a navegação e o estudo.
