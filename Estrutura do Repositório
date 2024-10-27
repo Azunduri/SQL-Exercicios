@@ -1,0 +1,17 @@
+SQL-Exercicios/
+│
+├── README.md                # Introdução ao repositório, objetivos e temas abordados
+├── introducao/              # Pasta com scripts de introdução ao SQL
+│   ├── create_table.sql      # Exemplos de criação de tabelas
+│   ├── insert_data.sql       # Exemplos de inserção de dados
+│   └── select_basics.sql     # Consultas básicas
+│
+├── intermediario/           # Scripts intermediários
+│   ├── joins.sql             # Exemplos de JOIN
+│   ├── subqueries.sql        # Exemplos de subconsultas
+│   └── funções_agregadas.sql # Exemplos de funções agregadas
+│
+└── avancado/                # Scripts avançados
+    ├── stored_procedures.sql # Procedimentos armazenados
+    ├── triggers.sql          # Exemplos de triggers
+    └── views.sql             # Exemplos de views
