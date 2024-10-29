@@ -48,3 +48,10 @@ SELECT Nome, atividae
 FROM [2810202]
 ORDER BY atividae
 
+
+# vê o nome das colunas
+USE vd;  
+GO
+SELECT COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = '2810202';
