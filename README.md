@@ -26,3 +26,11 @@ CREATE TABLE usuarios (
 -- Exemplo de inserção de dados
 INSERT INTO usuarios (id, nome, idade, email)
 VALUES (1, 'João Silva', 30, 'joao@email.com');
+
+
+```` ### Serve para vê o nomes das tabelas dentro de um banco de dados e esquema
+USE vd;
+GO
+SELECT TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES 
+WHERE TABLE_TYPE = 'BASE TABLE';
