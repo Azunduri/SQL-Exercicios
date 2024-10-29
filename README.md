@@ -55,3 +55,10 @@ GO
 SELECT COLUMN_NAME
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = '2810202';
+
+#inner join
+use [ciclo 15 - base]
+select * 
+from [2800202]
+inner join PEDIDOS
+on [2800202].Nome = PEDIDOS.NomePessoa;
