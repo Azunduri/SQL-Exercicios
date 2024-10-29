@@ -34,3 +34,17 @@ GO
 SELECT TABLE_NAME 
 FROM INFORMATION_SCHEMA.TABLES 
 WHERE TABLE_TYPE = 'BASE TABLE';
+
+# contagem de um item de uma coluna
+
+select atividae, COUNT(*) as contagem
+from [2810202]
+group by atividae
+order by atividae;
+
+
+### COLOCAR EM ORDEM
+SELECT Nome, atividae
+FROM [2810202]
+ORDER BY atividae
+
