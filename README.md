@@ -61,3 +61,23 @@ WHERE TABLE_NAME = '2810202';
 select b.Nome, a.ValorPraticado, b.atividae
 from PEDIDOS a, [2800202] b
 where a.NomePessoa = b.Nome
+
+#############Soma
+select * from [2800202]
+
+select * from PEDIDOS
+
+select b.Nome, a.ValorPraticado, b.atividae
+from PEDIDOS a, [2800202] b
+where a.NomePessoa = b.Nome
+SELECT 
+    b.Nome,
+    SUM(a.ValorPraticado) AS TotalValorPraticado,
+    b.atividae
+FROM 
+    PEDIDOS a
+JOIN 
+    [2800202] b ON a.NomePessoa = b.Nome
+GROUP BY 
+    b.Nome, b.atividae;
+
